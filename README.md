@@ -44,7 +44,6 @@ import strformat
 
 import libclip/clipboard
 
-
 proc main() =
   let text = "hello nim"
   let backup = getClipboardText()
@@ -62,7 +61,7 @@ proc main() =
   else:
     echo "# failed"
 
-# ############################################################################
+# ########################################
 
 when isMainModule:
   main()
@@ -81,5 +80,5 @@ Under Mac you must have the programs `pbcopy` and
 
 ## Links
 
-This clipboard library is part of my larger
+This clipboard library was extracted from my larger
 [NimPyKot](https://github.com/jabbalaci/nimpykot) library.
