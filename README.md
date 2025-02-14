@@ -34,7 +34,7 @@ functions:
 proc setClipboardText(text: string): bool
 
 # read text from clipboard
-proc getClipboardText(): string =
+proc getClipboardText(): string
 ```
 
 ## Example
