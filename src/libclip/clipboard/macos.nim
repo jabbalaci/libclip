@@ -1,7 +1,7 @@
 import osproc
 import streams
 
-import libclip/process
+import libclip/utils/process
 
 proc setClipboardText*(text: string): bool =
   let p = startProcess("pbcopy", options = {poUsePath, poStderrToStdout})
