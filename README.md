@@ -78,6 +78,9 @@ Please send me a feedback if it works under Mac.
 Under Mac you must have the programs `pbcopy` and
 `pbpaste`.
 
+I also added **FreeBSD** support.
+You must have the program `xsel`. It's in the package `xsel-conrad`.
+
 ## Links
 
 This clipboard library was extracted from my larger

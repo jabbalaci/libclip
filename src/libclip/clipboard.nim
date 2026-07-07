@@ -4,7 +4,7 @@ when defined(windows):
     windows.getClipboardText()
   proc setClipboardText*(text: string): bool =
     windows.setClipboardText(text)
-elif defined(linux):
+elif defined(linux) or defined(bsd):
   import libclip/utils/fs
   check_required_programs(@["xsel"], halt=true)
   import libclip/clipboard/linux
