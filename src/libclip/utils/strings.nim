@@ -1,4 +1,4 @@
-import strutils
+import std/strutils
 
 
 func rstrip*(s: string, chars: set[char] = Whitespace): string =

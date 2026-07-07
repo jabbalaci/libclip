@@ -1,4 +1,4 @@
-import strformat
+import std/strformat
 
 import libclip/clipboard
 

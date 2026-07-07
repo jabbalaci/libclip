@@ -1,5 +1,5 @@
-import osproc
-import streams
+import std/osproc
+import std/streams
 
 import libclip/utils/process
 

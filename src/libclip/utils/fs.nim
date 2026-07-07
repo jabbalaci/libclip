@@ -1,6 +1,6 @@
-import os
-import strutils
-import strformat
+import std/os
+import std/strutils
+import std/strformat
 
 
 proc which*(fname: string): string =

@@ -1,5 +1,6 @@
-import osproc
-import strformat
+import std/osproc
+import std/strformat
+
 import strings
 
 ## Working with processes, e.g. launch an external command.
